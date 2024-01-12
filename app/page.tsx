@@ -56,39 +56,83 @@ export default function Home() {
 						</a>
 						<a href='#'className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
 							<img src='/album.png' width={104} height={104} alt='capa álbum Utopia'/>
+							<strong>Utopia</strong>
 							<button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
 								<Play />
 							</button>
 						</a>
 						<a href='#'className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
 							<img src='/album.png' width={104} height={104} alt='capa álbum Utopia'/>
+							<strong>Utopia</strong>
 							<button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
 								<Play />
 							</button>
 						</a>
 						<a href='#'className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
 							<img src='/album.png' width={104} height={104} alt='capa álbum Utopia'/>
+							<strong>Utopia</strong>
 							<button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
 								<Play />
 							</button>
 						</a>
 						<a href='#'className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
 							<img src='/album.png' width={104} height={104} alt='capa álbum Utopia'/>
+							<strong>Utopia</strong>
 							<button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
 								<Play />
 							</button>
 						</a>
 						<a href='#'className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors'>
 							<img src='/album.png' width={104} height={104} alt='capa álbum Utopia'/>
+							<strong>Utopia</strong>
 							<button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
 								<Play />
 							</button>
 						</a>
 
 					</div>
-				</main>
+
+					<h2 className='font-bold text-3xl mt-10'>Made for Lucas Mendonça Martins</h2>
+
+					<div className="grid grid-cols-8 gap-4 mt-4">
+						<a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+						<img src='/album.png' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
+						<strong className='font-semibold'>Daily Mix 1</strong>
+						<span className="text-sm text-zinc-500">Wallows, COIN, girl in red and more</span>
+						</a>
+						<a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+						<img src='/album.png' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
+						<strong className='font-semibold'>Daily Mix 1</strong>
+						<span className="text-sm text-zinc-500">Wallows, COIN, girl in red and more</span>
+						</a>
+						<a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+						<img src='/album.png' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
+						<strong className='font-semibold'>Daily Mix 1</strong>
+						<span className="text-sm text-zinc-500">Wallows, COIN, girl in red and more</span>
+						</a>
+						<a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+						<img src='/album.png' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
+						<strong className='font-semibold'>Daily Mix 1</strong>
+						<span className="text-sm text-zinc-500">Wallows, COIN, girl in red and more</span>
+						</a>
+						<a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+						<img src='/album.png' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
+						<strong className='font-semibold'>Daily Mix 1</strong>
+						<span className="text-sm text-zinc-500">Wallows, COIN, girl in red and more</span>
+						</a>
+					</div>
+				</main> 
 			</div>
-			<footer className="bg-zinc-800 border-t border-zinc-700 px-6">footer</footer>
+			<footer className="bg-zinc-800 border-t border-zinc-700 px-6 flex items-center justify-between">footer</footer>
+			<div>
+				
+			</div>
+			<div>
+				
+			</div>
+			<div>
+				
+			</div>
 		</div>
 	);
 }
