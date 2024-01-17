@@ -73,9 +73,6 @@ export default function Home() {
 						<Image src='/funkHits.jpeg' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
 						<strong className='font-semibold'>Funk Hits</strong>
 						<span className="text-sm text-zinc-500">Subindo e descendo e os funks mais chave do Brasil</span>
-						<button className='w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible'>
-								<Play />
-							</button>
 						</a>
 						<a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
 						<Image src='/uqi.jpeg' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
@@ -100,17 +97,17 @@ export default function Home() {
 						<a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
 						<Image src='/theWeekend.jpeg' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
 						<strong className='font-semibold'>This is The Weeknd</strong>
-						<span className="text-sm text-zinc-500">Wallows, COIN, girl in red and more</span>
+						<span className="text-sm text-zinc-500">This is The Weeknd. Todos os maiores sucessos de The Weeknd</span>
 						</a>
 						<a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
-						<Image src='/album.png' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
+						<Image src='/daily.jpeg' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
 						<strong className='font-semibold'>Daily Mix 1</strong>
-						<span className="text-sm text-zinc-500">Wallows, COIN, girl in red and more</span>
+						<span className="text-sm text-zinc-500">Harry Styles, Dua Lipa, Lady Gaga, Lana Del Rey</span>
 						</a>
 						<a href='' className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
-						<Image src='/album.png' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
+						<Image src='/mix.jpeg' className='w-full' width={120} height={120} alt='capa álbum Utopia'/>
 						<strong className='font-semibold'>Daily Mix 1</strong>
-						<span className="text-sm text-zinc-500">Wallows, COIN, girl in red and more</span>
+						<span className="text-sm text-zinc-500">De</span>
 						</a>
 					</div>
 				</main> 
