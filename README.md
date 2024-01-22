@@ -1,6 +1,6 @@
 # Spotify Desktop 🖥️
 
-Bem-vindo ao projeto Spotify Clone, uma recriação da página inicial do Spotify desenvolvida com Next.js e estilizada com a biblioteca de estilos Tailwind CSS. 🎵🚀
+Bem-vindo ao projeto Spotify Desktop, uma recriação da página inicial do Spotify desenvolvida com Next.js e estilizada com a biblioteca de estilos Tailwind CSS com base nos ensinos da Rocketseat. 🎵🚀
 
 ## Tecnologias Utilizadas
 
