@@ -19,6 +19,7 @@ export function Sidebar() {
             <Search/>
             Search
         </a>
+    
         <nav>
             <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
                 <Library />

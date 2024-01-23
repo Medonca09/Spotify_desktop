@@ -1,6 +1,7 @@
 import { HomeIcon, Library, Search, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume, Maximize, Maximize2 } from "lucide-react";
 
 import Image from "next/image";
+import { FaPlay } from "react-icons/fa";
 export function Footer() {
     return (
         <footer className="bg-zinc-950 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
@@ -17,7 +18,7 @@ export function Footer() {
 					<SkipBack size={20} className='text-zinc-200'/>
 
 					<button className='w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black'>
-						<Play />
+					<FaPlay />
 					</button>
 
 					<SkipForward size={20} className='text-zinc-200'/>
