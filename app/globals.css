@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-height {
+    height: 50rem; /* Ou qualquer altura desejada que vá além de 49rem */
+  }
+
+.custom-height-page{
+  height: 61rem;
+}
+
+.custom-height-div{
+  height: 55rem;
+}
+  

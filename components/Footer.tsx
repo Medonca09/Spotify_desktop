@@ -3,9 +3,10 @@ import { HomeIcon, Library, Search, ChevronLeft, ChevronRight, Play, Shuffle, Sk
 import Image from "next/image";
 import { CgPlayTrackNext } from "react-icons/cg";
 import { FaPlay } from "react-icons/fa";
+import { IoPlaySkipBackSharp, IoPlaySkipForwardSharp } from "react-icons/io5";
 export function Footer() {
     return (
-        <footer className="bg-zinc-950 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
+        <footer className="bg-zinc-950 border-t border-zinc-700 px-6 py-4 flex items-center justify-between z-10">
 			<div className='flex items-center gap-3'>
 			<Image src='/album.png' width={56} height={56} alt='capa álbum Utopia'/>
 			<div className='flex flex-col'>
@@ -16,13 +17,13 @@ export function Footer() {
 			<div className='flex flex-col items-center gap-2'>
 				<div className='flex items-center gap-6'>
 					<Shuffle size={20} className='text-zinc-200'/>
-					<SkipBack size={20} className='text-zinc-200'/>
+					<IoPlaySkipBackSharp size={20} className='text-zinc-200'/>
 
 					<button className='w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black'>
 					<FaPlay />
 					</button>
 
-					<CgPlayTrackNext size={30} className='text-zinc-200'/>
+					<IoPlaySkipForwardSharp size={20} className='text-zinc-200'/>
 					<Repeat size={20} className='text-zinc-200'/>
 				</div>
 				<div className='flex items-center gap-2'>
