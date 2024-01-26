@@ -1,6 +1,7 @@
 import { HomeIcon, Library, Search, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume, Maximize, Maximize2 } from "lucide-react";
 
 import Image from "next/image";
+import { CgPlayTrackNext } from "react-icons/cg";
 import { FaPlay } from "react-icons/fa";
 export function Footer() {
     return (
@@ -21,7 +22,7 @@ export function Footer() {
 					<FaPlay />
 					</button>
 
-					<SkipForward size={20} className='text-zinc-200'/>
+					<CgPlayTrackNext size={30} className='text-zinc-200'/>
 					<Repeat size={20} className='text-zinc-200'/>
 				</div>
 				<div className='flex items-center gap-2'>

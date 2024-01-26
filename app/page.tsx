@@ -1,6 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { Sidebar } from "@/components/Sidedar";
-import { FaPlay } from "react-icons/fa";
+import { FaPlay, FaUser } from "react-icons/fa";
 import {
   Home as HomeIcon,
   Search,
@@ -43,8 +43,8 @@ export default function Home() {
             <button className="rounded-full bg-black p-1">
               <ChevronLeft />
             </button>
-            <button className="rounded-full bg-black p-1">
-              <ChevronRight />
+            <button className="rounded-full bg-emerald-600 p-4">
+              <FaUser />
             </button>
           </div>
 
@@ -150,7 +150,7 @@ export default function Home() {
           <div className="grid grid-cols-8 gap-4 mt-4">
             <a
               href=""
-              className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10"
+              className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
             >
               <Image
                 src="/funkHits.jpeg"
@@ -159,6 +159,9 @@ export default function Home() {
                 height={120}
                 alt="capa álbum Utopia"
               />
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
+                <FaPlay />
+              </button>
               <strong className="font-semibold">Funk Hits</strong>
               <span className="text-sm text-zinc-500">
                 Subindo e descendo e os funks mais chave do Brasil
@@ -166,7 +169,7 @@ export default function Home() {
             </a>
             <a
               href=""
-              className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10"
+              className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
             >
               <Image
                 src="/uqi.jpeg"
@@ -175,12 +178,15 @@ export default function Home() {
                 height={120}
                 alt="capa álbum Utopia"
               />
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
+                <FaPlay />
+              </button>
               <strong className="font-semibold">Um quebrada Inteligente</strong>
               <span className="text-sm text-zinc-500">Kyan, Mu540</span>
             </a>
             <a
               href=""
-              className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10"
+              className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
             >
               <Image
                 src="/album.png"
@@ -189,12 +195,15 @@ export default function Home() {
                 height={120}
                 alt="capa álbum Utopia"
               />
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
+                <FaPlay />
+              </button>
               <strong className="font-semibold">Utopia</strong>
               <span className="text-sm text-zinc-500">Travis Scott</span>
             </a>
             <a
               href=""
-              className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10"
+              className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
             >
               <Image
                 src="/top.webp"
@@ -203,6 +212,9 @@ export default function Home() {
                 height={120}
                 alt="capa álbum Utopia"
               />
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
+                <FaPlay />
+              </button>
               <strong className="font-semibold">Top Brasil</strong>
               <span className="text-sm text-zinc-500">
                 As músicas que estão em alta no Brasil!
@@ -210,7 +222,7 @@ export default function Home() {
             </a>
             <a
               href=""
-              className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10"
+              className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
             >
               <Image
                 src="/future.jpg"
@@ -219,6 +231,9 @@ export default function Home() {
                 height={120}
                 alt="capa álbum Utopia"
               />
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
+                <FaPlay />
+              </button>
               <strong className="font-semibold">This is Future</strong>
               <span className="text-sm text-zinc-500">
                 This is Future. Todos os maiores sucessos de Future
@@ -226,7 +241,7 @@ export default function Home() {
             </a>
             <a
               href=""
-              className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10"
+              className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
             >
               <Image
                 src="/theWeekend.jpeg"
@@ -235,6 +250,9 @@ export default function Home() {
                 height={120}
                 alt="capa álbum Utopia"
               />
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
+                <FaPlay />
+              </button>
               <strong className="font-semibold">This is The Weeknd</strong>
               <span className="text-sm text-zinc-500">
                 This is The Weeknd. Todos os maiores sucessos de The Weeknd
@@ -242,7 +260,7 @@ export default function Home() {
             </a>
             <a
               href=""
-              className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10"
+              className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
             >
               <Image
                 src="/daily.jpeg"
@@ -251,6 +269,9 @@ export default function Home() {
                 height={120}
                 alt="capa álbum Utopia"
               />
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
+                <FaPlay />
+              </button>
               <strong className="font-semibold">Daily Mix 1</strong>
               <span className="text-sm text-zinc-500">
                 Harry Styles, Dua Lipa, Lady Gaga, Lana Del Rey
@@ -258,7 +279,7 @@ export default function Home() {
             </a>
             <a
               href=""
-              className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10"
+              className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
             >
               <Image
                 src="/mix.jpeg"
@@ -267,7 +288,10 @@ export default function Home() {
                 height={120}
                 alt="capa álbum Utopia"
               />
-              <strong className="font-semibold">Daily Mix 1</strong>
+              <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10 ">
+                <FaPlay />
+              </button>
+              <strong className="font-semibold">Mega Hit Mix</strong>
               <span className="text-sm text-zinc-500">De Spotify</span>
             </a>
           </div>
