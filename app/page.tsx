@@ -73,7 +73,7 @@ export default function Home() {
                     height={104}
                     alt="capa álbum Utopia"
                   />
-                  <strong>Músicas Curidas</strong>
+                  <strong>Liked Songs</strong>
                   <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                     <FaPlay />
                   </button>
@@ -128,12 +128,12 @@ export default function Home() {
                   className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
                 >
                   <Image
-                    src="/topBrasil.jpeg"
+                    src="/21savage.jpeg"
                     width={104}
                     height={104}
-                    alt="capa álbum Utopia"
+                    alt="capa álbum Savage Mode 2"
                   />
-                  <strong>Top Brasil</strong>
+                  <strong>Savage Mode 2</strong>
                   <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                     <FaPlay />
                   </button>
@@ -143,12 +143,12 @@ export default function Home() {
                   className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors"
                 >
                   <Image
-                    src="/podpah.jpeg"
+                    src="/drakeAlbum.jpeg"
                     width={104}
                     height={104}
-                    alt="capa álbum Utopia"
+                    alt="capa álbum certified lover boy"
                   />
-                  <strong>PodPah Podcast</strong>
+                  <strong>Certified Lover Boy</strong>
                   <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
                     <FaPlay />
                   </button>
@@ -156,7 +156,7 @@ export default function Home() {
               </div>
 
               <h2 className="font-bold text-3xl mt-10">
-                Made for Lucas Mendonça Martins
+                Made For You
               </h2>
 
               <div className="grid grid-cols-8 gap-4 mt-4">
@@ -165,18 +165,18 @@ export default function Home() {
                   className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
                 >
                   <Image
-                    src="/funkHits.jpeg"
+                    src="/drakeAlbum.jpeg"
                     className="w-full"
                     width={120}
                     height={120}
-                    alt="capa álbum Utopia"
+                    alt="capa álbum certified lover boy"
                   />
                   <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
                     <FaPlay />
                   </button>
-                  <strong className="font-semibold">Funk Hits</strong>
+                  <strong className="font-semibold">Certified Lover Boy</strong>
                   <span className="text-sm text-zinc-500">
-                    Subindo e descendo e os funks mais chave do Brasil
+                    Drake
                   </span>
                 </a>
                 <a
@@ -184,7 +184,7 @@ export default function Home() {
                   className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
                 >
                   <Image
-                    src="/uqi.svg"
+                    src="/spiderVerse.jpeg"
                     className="w-full"
                     width={120}
                     height={120}
@@ -194,9 +194,9 @@ export default function Home() {
                     <FaPlay />
                   </button>
                   <strong className="font-semibold">
-                    Um quebrada Inteligente
+                      METRO BOOMIN PRE...
                   </strong>
-                  <span className="text-sm text-zinc-500">Kyan, Mu540</span>
+                  <span className="text-sm text-zinc-500">Metro Boomin</span>
                 </a>
                 <a
                   href=""
@@ -220,25 +220,6 @@ export default function Home() {
                   className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
                 >
                   <Image
-                    src="/top.webp"
-                    className="w-full"
-                    width={120}
-                    height={120}
-                    alt="capa álbum Utopia"
-                  />
-                  <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
-                    <FaPlay />
-                  </button>
-                  <strong className="font-semibold">Top Brasil</strong>
-                  <span className="text-sm text-zinc-500">
-                    As músicas que estão em alta no Brasil!
-                  </span>
-                </a>
-                <a
-                  href=""
-                  className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
-                >
-                  <Image
                     src="/future.jpg"
                     className="w-full"
                     width={120}
@@ -251,6 +232,25 @@ export default function Home() {
                   <strong className="font-semibold">This is Future</strong>
                   <span className="text-sm text-zinc-500">
                     This is Future. Todos os maiores sucessos de Future
+                  </span>
+                </a>
+                <a
+                  href=""
+                  className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
+                >
+                  <Image
+                    src="/21savage.jpeg"
+                    className="w-full"
+                    width={120}
+                    height={120}
+                    alt="capa álbum Utopia"
+                  />
+                  <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10">
+                    <FaPlay />
+                  </button>
+                  <strong className="font-semibold">Savage Mode 2</strong>
+                  <span className="text-sm text-zinc-500">
+                    21 Savage, Metro Boomin
                   </span>
                 </a>
                 <a
@@ -296,17 +296,17 @@ export default function Home() {
                   className="bg-white/5 p-3 group rounded-md flex flex-col gap-2 hover:bg-white/10 transition-colors"
                 >
                   <Image
-                    src="/mix.jpeg"
+                    src="/kendrickLamar.jpg"
                     className="w-full"
                     width={120}
                     height={120}
-                    alt="capa álbum Utopia"
+                    alt="capa álbum Mr. Morale & the Big Steppers"
                   />
                   <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black invisible group-hover:visible ml-36 -mt-10 ">
                     <FaPlay />
                   </button>
-                  <strong className="font-semibold">Mega Hit Mix</strong>
-                  <span className="text-sm text-zinc-500">De Spotify</span>
+                  <strong className="font-semibold">Mr. Morale & the Big Steppers</strong>
+                  <span className="text-sm text-zinc-500">Kendrick Lamar</span>
                 </a>
               </div>
             </div>

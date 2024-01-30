@@ -6,7 +6,7 @@ import { FaPlay } from "react-icons/fa";
 import { IoPlaySkipBackSharp, IoPlaySkipForwardSharp } from "react-icons/io5";
 export function Footer() {
     return (
-        <footer className="bg-zinc-950 border-t border-zinc-700 px-6 py-4 flex items-center justify-between z-10">
+        <footer className="bg-zinc-950 px-6 py-4 flex items-center justify-between z-10">
 			<div className='flex items-center gap-3'>
 			<Image src='/album.png' width={56} height={56} alt='capa álbum Utopia'/>
 			<div className='flex flex-col'>

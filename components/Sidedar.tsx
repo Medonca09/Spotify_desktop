@@ -58,7 +58,7 @@ export function Sidebar() {
               </button>
               <a
                 href=""
-                className="text-sm text-black ml-4 p-1 rounded-full bg-white"
+                className="text-sm text-white hover:bg-white hover:text-black ml-4 p-1 rounded-full bg-black/30"
               >
                 Playlists
               </a>
@@ -77,23 +77,128 @@ export function Sidebar() {
               </div>
 
               <div className="flex items-center gap-2 hover:text-white">
-                <span>Recente</span>
+                <span>Recent</span>
                 <FaListUl />
               </div>
             </div>
-            <div className="flex items-center gap-4 mt-5">
+            <div className="flex items-center gap-4 mt-3 p-2 hover:bg-zinc-800 rounded-lg">
               <Image
                 src="/liked.png"
-                width={55}
-                height={55}
+                width={50}
+                height={50}
+                alt="capa músicas curtidas"
+                className="rounded-lg"
+              />
+              <span>
+                Liked Songs
+                <div className="flex items-center">
+                  <FaThumbtack className="text-green-500 gap-1" />
+                  <span className="text-zinc-500">3.648 Songs</span>
+                </div>
+              </span>
+            </div>
+            <div className="flex items-center gap-4 mt-3 p-2 hover:bg-zinc-800 rounded-lg">
+              <Image
+                src="/spiderVerse.jpeg"
+                width={50}
+                height={50}
+                alt="capa Metro boomin presents spider-man across the spider-verse"
+                className="rounded-lg"
+              />
+              <span>
+                Metro boomin pres...
+                <div className="flex items-center">
+                  <span className="text-zinc-500">Metro Boomin</span>
+                </div>
+              </span>
+            </div>
+            <div className="flex items-center gap-4 mt-3 p-2 hover:bg-zinc-800 rounded-lg">
+              <Image
+                src="/drakeAlbum.jpeg"
+                width={50}
+                height={50}
+                alt="capa álbum certified lover boy"
+                className="rounded-lg"
+              />
+              <span>
+                Certified Lover Boy
+                <div className="flex items-center">
+                  <span className="text-zinc-500">Drake</span>
+                </div>
+              </span>
+            </div>
+            <div className="flex items-center gap-4 mt-3 p-2 hover:bg-zinc-800 rounded-lg">
+              <Image
+                src="/theWeekend.jpeg"
+                width={50}
+                height={50}
+                alt="capa this is the weeknd"
+                className="rounded-lg"
+              />
+              <span>
+                This is The Weeknd
+                <div className="flex items-center">
+                  <span className="text-zinc-500">Spotify</span>
+                </div>
+              </span>
+            </div>
+            <div className="flex items-center gap-4 mt-3 p-2 hover:bg-zinc-800 rounded-lg">
+              <Image
+                src="/daily.jpeg"
+                width={50}
+                height={50}
                 alt="capa álbum Utopia"
                 className="rounded-lg"
               />
               <span>
-                Músicas Curtidas
-                <FaThumbtack className="text-green-500 ml-2" />
-                <div className="flex items-center ml-2">
-                  <span className="text-zinc-500">3.648 músicas</span>
+                Daily Mix 1
+                <div className="flex items-center">
+                  <span className="text-zinc-500">Spotify</span>
+                </div>
+              </span>
+            </div>
+            <div className="flex items-center gap-4 mt-3 p-2 hover:bg-zinc-800 rounded-lg">
+              <Image
+                src="/mix.jpeg"
+                width={50}
+                height={50}
+                alt="capa mega hits mix"
+                className="rounded-lg"
+              />
+              <span>
+                Mega Hits Mix
+                <div className="flex items-center">
+                  <span className="text-zinc-500">Spotify</span>
+                </div>
+              </span>
+            </div>
+            <div className="flex items-center gap-4 mt-3 p-2 hover:bg-zinc-800 rounded-lg">
+              <Image
+                src="/kendrickLamar.jpg"
+                width={50}
+                height={50}
+                alt="capa playlsit"
+                className="rounded-lg"
+              />
+              <span>
+                Mr. Morale & the Bi...
+                <div className="flex items-center">
+                  <span className="text-zinc-500">Kendrick Lamar</span>
+                </div>
+              </span>
+            </div>
+            <div className="flex items-center gap-4 mt-3 p-2 hover:bg-zinc-800 rounded-lg">
+              <Image
+                src="/metro.jpg"
+                width={50}
+                height={50}
+                alt="capa álbum Utopia"
+                className="rounded-lg"
+              />
+              <span>
+                This is Metro Boomin
+                <div className="flex items-center">
+                  <span className="text-zinc-500">Spotify</span>
                 </div>
               </span>
             </div>
